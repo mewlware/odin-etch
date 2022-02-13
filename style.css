@@ -1,0 +1,23 @@
+/* CSS RESET */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* GRID-CONTAINER */
+.grid-container {
+    width: 800px;
+    height: 800px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    box-sizing: content-box;
+    border: 1px solid darkgray;
+}
